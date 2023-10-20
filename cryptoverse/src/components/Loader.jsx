@@ -1,9 +1,11 @@
-import { Spin } from "antd"
+import { Spin } from "antd";
 
 const Loader = () => {
   return (
-    <div className="loader"><Spin/></div>
-  )
-}
+    <div className="loader">
+      <Spin />
+    </div>
+  );
+};
 
-export default Loader
+export default Loader;
